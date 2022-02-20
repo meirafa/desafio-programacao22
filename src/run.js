@@ -1,6 +1,6 @@
 const drawStairs = require('./questions/drawStairs');
 const checkStrongPassword = require('./questions/checkStrongPassword');
-const checkCountAnagrama = require('./questions/checkCountAnagrama');
+const checkCountAnagrams = require('./questions/checkCountAnagrams');
 
 //-------------------------------------EXECUTAR FUNÇÃO NO IDE----------------------------------------------
 //Se preferir invocar a função sem utilizar o terminal
@@ -10,10 +10,10 @@ const checkCountAnagrama = require('./questions/checkCountAnagrama');
 //checkStrongPassword('aA1~l#');
 //checkStrongPassword('aA1~l');
 //checkStrongPassword("0")
-//checkCountAnagrama("ifailuhkqq");
-//checkCountAnagrama("o");
-//checkCountAnagrama("ovo");
-//checkCountAnagrama("rafa");
+//checkCountAnagrams("ifailuhkqq");
+//checkCountAnagrams("o");
+//checkCountAnagrams("ovo");
+//checkCountAnagrams("rafa");
 
 
 //----------------------------------ENTRADA DE USUARIO TERMINAL--------------------------------------------
@@ -29,7 +29,7 @@ readline.question('Digite um número: ', num => {
     readline.question('Digite uma senha: ', pass => {
         checkStrongPassword(pass);
         readline.question('Digite uma palavra: ', word => {
-            checkCountAnagrama(word);
+            checkCountAnagrams(word);
             //console.log("Press the key 'CTRL+D' to closing the console");
             readline.close();
         });

@@ -57,7 +57,7 @@ window.addEventListener('load', () => {
         } else if (id == '2') {
             p.textContent = checkStrongPassword(resposta)
         } else if (id == '3') {
-            p.innerText = checkCountAnagrama(resposta)
+            p.innerText = checkCountAnagrams(resposta)
         }
     }
 });
@@ -135,7 +135,7 @@ function checkStrongPassword(senha) {
 }
 
 //QUESTÃO3
-function checkCountAnagrama(palavra) {
+function checkCountAnagrams(palavra) {
 
     let arraySubstring = [];
     const tamanhoString = palavra.length;

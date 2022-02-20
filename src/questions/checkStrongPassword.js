@@ -12,6 +12,10 @@ senha forte. Para ajudar Débora, construa um algoritmo que informe qual é o n�
 caracteres que devem ser adicionados para uma string qualquer ser considerada segura.*/
 
 module.exports = function checkStrongPassword(senha) {
+    if(typeof senha !== 'string'){
+        throw new Error("Senha não é uma string!")
+    }
+
     // \d ou [0-9] = digitos, \w = alfanumérico incluindo underline, \s = espaço em branco
     //[a-z] = letras minúsculas, [A-Z] = letras maiúsculas
     //simboloRegex = não inclue alfanumerico nem com acentos, nem espaços, nem tio e ponto

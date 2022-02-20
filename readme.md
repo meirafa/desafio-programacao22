@@ -7,16 +7,16 @@ A implementação das questões foram realizadas com as seguintes linguagens e f
 - Runtime: Node.js
 - Bônus: HTML e Bootstrap
 
-### Questão 01
+### Questão 01 - Escada
 - Nome do arquivo: drawStairs.js
 - Localização: desafio-programacao > src > questions
 
-### Questão 02
+### Questão 02 - Senha forte
 - Nome do arquivo: checkStrongPassword.js
 - Localização: desafio-programacao > src > questions
 
-### Questão 03
-- Nome do arquivo: checkCountAnagrama.js
+### Questão 03 - Anagrama
+- Nome do arquivo: checkCountAnagrams.js
 - Localização: desafio-programacao > src > questions
 
 ### Especificação das outras pastas:
@@ -54,11 +54,11 @@ A implementação das questões foram realizadas com as seguintes linguagens e f
         ● Localização: desafio-programacao > src > tests
         
         #Teste Questão 1 - Escada
-            ● Nome do arquivo: drawStars.test.js
+            ● Nome do arquivo: drawStairs.test.js
         #Teste Questão 2 - Senha forte
-            ● Nome do arquivo: checkStringPassword.test.js
+            ● Nome do arquivo: checkStrongPassword.test.js
         #Teste Questão 3 - Anagrama
-            ● Nome do arquivo: checkCountAnagrama.test.js
+            ● Nome do arquivo: checkCountAnagrams.test.js
         
         ● Explicação:
             É necessário instalar as dependencias utilizando o 
