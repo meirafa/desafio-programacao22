@@ -63,4 +63,4 @@ A implementação das questões foram realizadas com as seguintes linguagens e f
         
         ● Explicação:
             Por meio do terminal, instale as dependencias do projeto utilizando o comando:
-            "npm install". Após executar o comando: "npm run test".
+            "npm install" na pasta raiz, após executar o comando: "npm run test".
