@@ -1,0 +1,25 @@
+{
+  "name": "desafio-programacao",
+  "version": "1.0.0",
+  "description": "DESAFIO DE PROGRAMAÇÃO - ACADEMIA CAPGEMINI",
+  "main": "./src/run.js",
+
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meirafa/desafio-programacao22.git"
+  },
+  "keywords": [],
+  "author": "Rafaela Lopes Meira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/meirafa/desafio-programacao22/issues"
+  },
+  "homepage": "https://github.com/meirafa/desafio-programacao22#readme",
+  "devDependencies": {
+    "@types/jest": "^27.4.0",
+    "jest": "^27.5.1"
+  }
+}
