@@ -1,4 +1,4 @@
-# DESAFIO DE PROGRAMAÇÃO - ACADEMIA CAPGEMINI
+## DESAFIO DE PROGRAMAÇÃO - ACADEMIA CAPGEMINI
 Terceira etapa do processo de seleção para a Academia Capgemini 2022.
 
 A implementação das questões foram realizadas com as seguintes linguagens e ferramentas:
@@ -9,51 +9,50 @@ A implementação das questões foram realizadas com as seguintes linguagens e f
 
 ### Questão 01 - Escada
 - Nome do arquivo: drawStairs.js
-- Localização: desafio-programacao > src > questions
+- Localização: raiz do projeto > src > questions
 
 ### Questão 02 - Senha forte
 - Nome do arquivo: checkStrongPassword.js
-- Localização: desafio-programacao > src > questions
+- Localização: raiz do projeto > src > questions
 
 ### Questão 03 - Anagrama
 - Nome do arquivo: checkCountAnagrams.js
-- Localização: desafio-programacao > src > questions
+- Localização: raiz do projeto > src > questions
 
-### Especificação das outras pastas:
-- Localização: desafio-programacao > src
+### Especificação de outras pastas:
+- Localização: raiz do projeto > src
 - Nota: Arquivo para rodar aplicação no terminal e outros códigos fonte do projeto
 
-- Localização: desafio-programacao > src > run-browser
+- Localização: raiz do projeto > src > run-browser
 - Nota: Arquivos com intuito de rodar as aplicações no navegador
 
-- Localização: desafio-programacao > src > tests
+- Localização: raiz do projeto > src > tests
 - Nota: Arquivos com intuito de realizar os testes unitarios de cada questão
 
 ## Instruções para rodar a aplicação e as tecnologias utilizadas:
     ● Clonar o projeto, ou baixar o zip e extrair
-
-    #Maneiras de rodar a aplição:
     
     1# Rodar utilizando o browser:
-        ● Localização: desafio-programacao > src > run-browser
+        ● Localização: raiz do projeto > src > run-browser
         ● Nome do arquivo: page.html
-            ● Explicação: Após abrir o projeto e entrar na pasta indicada a cima, clique no arquivo PAGE.HTML
-             para que possa abrir no navegador e interaja com a página.
+        ● Explicação: 
+            Abra o arquivo page.html que se encontra na pasta 'run-browser'
+            para que possa abrir no navegador e interaja com a página.
 
     2# Rodar utilizando o terminal (entrada do usuario):
-    Obs. É necessário ter o NODE instalado. Site para download: https://nodejs.org/en/.
-        ● Localização: desafio-programacao > src
+    Obs. É necessário ter o node instalado. Site para download: https://nodejs.org/en/.
+        ● Localização: raiz do projeto > src
         ● Nome do arquivo: run.js
-            ● Explicação: Abra o terminal de sua máquina, verifique se tem o node.js instalado com o comando:
-             "node --version", caso contrário necessitará instalação.
-            ● Verifique o local em que a pasta do projeto se encontra e entre nela pelo terminal,
-            após entre na pasta src digitando: "cd src". Exemplo: C:\User\desafio-programacao\src>
-            ● Rode o arquivo executando o comando: "node run.js" e interaja com as questões.
+        ● Explicação: 
+            Abra o terminal de sua máquina, verifique se tem o node.js instalado com o comando:
+            "node --version", caso contrário necessitará instalação.
+            Por meio do terminal navegue até a pasta 'src'.
+            Rode o arquivo executando o comando: "node run.js" e interaja com as questões.
             Obs. Cada pergunta rodará uma única vez em sequencia, caso queira responder novamente
             basta rodar novamente o arquivo executando o comando: "node run.js"
 
     3# Rodar testes unitario:
-        ● Localização: desafio-programacao > src > tests
+        ● Localização: raiz do projeto > src > tests
         
         #Teste Questão 1 - Escada
             ● Nome do arquivo: drawStairs.test.js
@@ -63,5 +62,5 @@ A implementação das questões foram realizadas com as seguintes linguagens e f
             ● Nome do arquivo: checkCountAnagrams.test.js
         
         ● Explicação:
-            É necessário instalar as dependencias utilizando o comando: "npm install"
-            no terminal dentro da pasta do projeto raiz. Após executar o comando: "npm run test"
+            Por meio do terminal, instale as dependencias do projeto utilizando o comando:
+            "npm install". Após executar o comando: "npm run test".
